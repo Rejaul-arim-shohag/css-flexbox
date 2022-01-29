@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-item-left{
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: rgb(9, 61, 68);
+    padding: 10px;
+    flex: 50%;
+}
+.flex-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+/* responsive by persentiage */
+
+/* @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  } */

@@ -1,0 +1,29 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form input, button{
+    border: 1px solid red;
+    width: 300px;
+}
+
+header{
+    width: 1200px;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-right: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
